@@ -9,6 +9,7 @@ import { AddCustomerComponent } from './components/add-customer/add-customer.com
 import {FormsModule} from "@angular/forms";
 import { EditCustomerComponent } from './components/edit-customer/edit-customer.component';
 import { CustomerDetailsComponent } from './components/customer-details/customer-details.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CustomerDetailsComponent } from './components/customer-details/customer
     CustomersComponent,
     AddCustomerComponent,
     EditCustomerComponent,
-    CustomerDetailsComponent
+    CustomerDetailsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
